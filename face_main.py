@@ -7,6 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 import tensorflow as tf
 from keras.models import load_model
 import time
+from keras_facenet import FaceNet
 
 class FaceRecognitionSystem:
     def __init__(self, model_path=None, embedding_db_path="face_embeddings.pkl", 
