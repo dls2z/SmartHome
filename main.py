@@ -3,7 +3,7 @@ import librosa
 import sounddevice as sd
 import tensorflow as tf
 from tensorflow import keras
-from tensorflow.keras import layers
+from keras import layers
 import matplotlib.pyplot as plt
 import threading
 import queue
